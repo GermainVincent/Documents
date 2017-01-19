@@ -44,11 +44,11 @@
 <ul>We can copy/paste files from our computer</ul>
 <ul>We can create new HTML files (index.html here) directly: nano /var/www/example.com/public_html/index.html</ul>
 <ul>We also can copy files from a virtual host to another one: cp /var/www/example.com/public_html/index.html /var/www/test.com/public_html/index.html</ul>
-<uL>with "nano" command we can enter and modify a file at any time</ul>
+<ul>with "nano" command we can enter and modify a file at any time</ul>
 6) Create virtual host configuration files for all of our domain by copying the default configuration file into our virtual host (.conf):
 <ul>cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf</ul>
 <ul>WARNING: While using Laravel or Symphony we have to load the .htaccess (hidden file. Use ls -la to show it) that is located in "public" folder to add the routing rules. To allow this we have to write this in the .conf file :</ul>
-"<Directory /var/www/html/code-closet/public/>"
+><Directory /var/www/html/code-closet/public/><blockquote>
                 																		AllowOverride All
         																		</Directory>
 																		  This will allow laravel to use the routing rules from .htaccess
