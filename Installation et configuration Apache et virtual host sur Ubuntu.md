@@ -6,31 +6,29 @@
 
 2) Install Apache with this two command: 
 	<ul>apt-get update (récupère la dernière version)</ul>
-	<ul>apt-get install apache2</ul>
+	<ul>apt-get install apache2</ul><br/>
 
 3) Check if working by typing the IP adress or the adress on browser
-	- http://code-closet.com or 51.255.51.212
+	<ul>http://code-closet.com or 51.255.51.212</ul><br/>
 
 4) Install MySQL:
-	- apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+	<ul>apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql</ul><br/>
 
 5) Activate SQL:
-	- mysql_install_db
+	<ul>mysql_install_db</ul><br/>
 
 6) Run SQL setup script:
-	- /usr/bin/mysql_secure_installation
+	<ul>/usr/bin/mysql_secure_installation</ul><br/>
 
 7) Install PHP
-	- apt-get install php5 libapache2-mod-php5 php5-mcrypt
+	<ul>apt-get install php5 libapache2-mod-php5 php5-mcrypt</ul><br/>
 
 8) Add PHP to the directory index:
-	- /etc/apache2/mods-enabled/dir.conf
-<br/>
-<br/>
+	<ul>/etc/apache2/mods-enabled/dir.conf</ul><br/>
+
 9) Adding PHP modules:
-	     <ul>apt-cache search php5- (Print a list of all available module)</ul>
-	     <ul>apt-get install "name of the module" (Install the selected module by its name)</ul>
-<br/>
+	 <ul>apt-cache search php5- (Print a list of all available module)</ul>
+	 <ul>apt-get install "name of the module" (Install the selected module by its name)</ul><br/>
 <br/>
 ####HOW TO SETUP AN APACHE VIRTUAL HOST ON UBUNTU
 --------------
