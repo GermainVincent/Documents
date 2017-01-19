@@ -38,11 +38,11 @@
 2) Create or use an existing domain name
 
 3) Create directories to hold our website files:
-	- mkdir -p /var/www/example.com/public_html
+	<ul>mkdir -p /var/www/example.com/public_html</ul>
 
 4) Get permissions to modify the files of our website contained in the actual domain and subdomain:
-	- chown -R $USER:$USER /var/www/example.com/public_html
-	  ($USER variable will take the value of the actual logged-in user)
+	<ul>chown -R $USER:$USER /var/www/example.com/public_html</ul>
+	<ul>($USER variable will take the value of the actual logged-in user)</ul>
 
 5) Create or copy webpages in the correct directory:
 	- We can copy/paste files from our computer
