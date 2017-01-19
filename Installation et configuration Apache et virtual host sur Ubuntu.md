@@ -70,11 +70,12 @@ DocumentRoot /var/www/example.com/public_html
 Save and close
 
 8) Enable the virtual host :
-* a2ensite example.com.conf<br/>
-restart the server to make the changes works :
+* a2ensite example.com.conf
+
+9) restart the server to make the changes works :
 * service apache2 restart
 
-9) Test it by writing its adress in the browser
+10) Test it by writing its adress in the browser
 <br/><br/>
 
 <strong>NB:</strong>
