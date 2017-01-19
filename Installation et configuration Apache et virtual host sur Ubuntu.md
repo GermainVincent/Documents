@@ -42,7 +42,7 @@
 
 4) Get permissions to modify the files of our website contained in the actual domain and subdomain :
 * chown -R $USER:$USER /var/www/example.com/public_html
-* ($USER variable will take the value of the actual logged-in user)
+*$USER variable will take the value of the actual logged-in user*
 
 5) Create or copy webpages in the correct directory :
 * We can copy/paste files from our computer
