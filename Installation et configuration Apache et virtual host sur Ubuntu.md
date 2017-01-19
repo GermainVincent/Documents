@@ -25,10 +25,12 @@
 
 8) Add PHP to the directory index:
 	- /etc/apache2/mods-enabled/dir.conf
-
-9) Adding PHP modules:
-	- apt-cache search php5- (Print a list of all available module)
-	- apt-get install "name of the module" (Install the selected module by its name)
+<br/>
+<br/>
+<ul>9) Adding PHP modules:<br/>
+	     <li>apt-cache search php5- (Print a list of all available module)</li>
+	     <li>apt-get install "name of the module" (Install the selected module by its name)</li>
+</ul>
 <br/>
 <br/>
 <br/>
