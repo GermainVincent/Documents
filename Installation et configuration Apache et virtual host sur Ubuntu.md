@@ -1,12 +1,12 @@
 ####HOW TO INSTALL AN APACHE SERVER
 =========
 
-1)Login into server:
-<ul>root@code-closet.com (or vps355203.ovh.net)</ul>
+1. Login into server:
+* root@code-closet.com (or vps355203.ovh.net)
 
-2) Install Apache with this two command: 
-<ul>apt-get update (récupère la dernière version)</ul>
-<ul>apt-get install apache2</ul>
+2. Install Apache with this two command: 
+* apt-get update (récupère la dernière version)
+* apt-get install apache2
 
 3) Check if working by typing the IP adress or the adress on browser
 <ul>http://code-closet.com or 51.255.51.212</ul>
