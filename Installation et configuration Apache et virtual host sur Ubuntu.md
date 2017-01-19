@@ -53,8 +53,7 @@
 6) Create virtual host configuration files for all of our domain by copying the default configuration file into our virtual host (.conf) :
 * cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf
 * WARNING: While using Laravel or Symphony we have to load the .htaccess (hidden file. Use ls -la to show it) that is located in "public" folder to add the routing rules. To allow this we have to write this in the .conf file :<br/>
-> <Directory /var/www/html/code-closet/public/>													AllowOverride All
-> </Directory>
+Directory /var/www/html/code-closet/public/	AllowOverride All	/Directory<br/>
 This will allow laravel to use the routing rules from .htaccess
 
 7) Modify the configuration file :
@@ -71,7 +70,7 @@ DocumentRoot /var/www/example.com/public_html
 Save and close
 
 8) Enable the virtual host :
-* a2ensite example.com.conf
+* a2ensite example.com.conf<br/>
 restart the server to make the changes works :
 * service apache2 restart
 
@@ -83,7 +82,7 @@ restart the server to make the changes works :
 How to get my server IP adress :
 * ifconfig eth0
 
-Restart th Apache server :
+Restart the Apache server :
 * service apache2 restart
 
 Virtual host : 
