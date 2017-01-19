@@ -27,7 +27,7 @@
 	- /etc/apache2/mods-enabled/dir.conf
 <br/>
 <br/>
-9) Adding PHP modules:<br/><br/>
+9) Adding PHP modules:
 	     <ul>apt-cache search php5- (Print a list of all available module)</ul>
 	     <ul>apt-get install "name of the module" (Install the selected module by its name)</ul>
 <br/>
