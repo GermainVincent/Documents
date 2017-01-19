@@ -1,4 +1,4 @@
-#### HOW TO INSTALL AN APACHE SERVER
+####HOW TO INSTALL AN APACHE SERVER
 =========
 
 1)Login into server:
@@ -27,14 +27,12 @@
 	- /etc/apache2/mods-enabled/dir.conf
 <br/>
 <br/>
-<ul>9) Adding PHP modules:<br/>
-	     <li>apt-cache search php5- (Print a list of all available module)</li>
-	     <li>apt-get install "name of the module" (Install the selected module by its name)</li>
-</ul>
+9) Adding PHP modules:<br/><br/>
+	     <ul>apt-cache search php5- (Print a list of all available module)</ul>
+	     <ul>apt-get install "name of the module" (Install the selected module by its name)</ul>
 <br/>
 <br/>
-<br/>
-#### HOW TO SETUP AN APACHE VIRTUAL HOST ON UBUNTU
+####HOW TO SETUP AN APACHE VIRTUAL HOST ON UBUNTU
 --------------
 
 1) Make sure we have installed an apache server and created a non root user profile
