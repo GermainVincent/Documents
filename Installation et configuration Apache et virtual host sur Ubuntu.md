@@ -29,7 +29,8 @@
 9) Adding PHP modules :
 * apt-cache search php5- (Print a list of all available module)
 * apt-get install "name of the module" (Install the selected module by its name)
-<br/>
+<br/><br/>
+
 #### HOW TO SETUP AN APACHE VIRTUAL HOST ON UBUNTU
 --------------
 1) Make sure we have installed an apache server and created a non root user profile
