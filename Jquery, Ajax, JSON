@@ -1,7 +1,20 @@
-#### jQuery
+#### jQuery (Write less do more)
 * jQuery est une bibliothèque (ensemble de codes prêts à l'emploi)
 * jQuery s'exécute coté client. Dans la plupart des cas il n'y a pas d'échanges avec un serveur et donc aucun délai entre le début et la fin de l'exécution du code Jquery
-
+* jQuery ajoute une couche au code javascript étant comprise par l'intégralité des navigateurs du marché. Ce qui permet de pallier aux problèmes de compatibilité du code JS
+* Le fichier jQuery.js doit être placé dans le répertoire contenant les pages HTML ou le chemin complet doit être spécifié
+* Le langage jQuery est utilisé pour manipuler (en lecture et en écriture) le DOM, c'est-à-dire l'arborescence du document. Il est nécessaire d'attendre que le DOM soit entièrement charger avant de commencer à l'interrogr ou le manipuler; Pour ce fare on utilise cette commande:
+    $(document).ready(function()) {
+                  DOM
+                                  });
+* Exemple : $(function() {
+                  $('#texteJQ').html('Hello world. Ce texte est affiché par jQuery.');
+                          });
+            La première et la troisième ligne demande le chargement complet du DOM avant de commencer à le manipuler.
+            $('#texteJQ') : cette partie agit comme un sélecteur. Elle retrouve dans le DOM l'élément dont l'attribut id vaut texteJQ.
+            html('Hello world. Ce texte est affiché par jQuery.'); : la deuxième partie indique ce qui doit être modifié. Dans cet exemple, on utilise la méthode html() pour demander la modification du contenu de la balise.
+            
+            
 #### AJAX
 * Permet de mettre à jour une partie seulement d'un site web en demandant les données nécessaires à un serveur
 * 
