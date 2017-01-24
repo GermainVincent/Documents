@@ -1,0 +1,7 @@
+#### jQuery
+* jQuery est une bibliothèque (ensemble de codes prêts à l'emploi)
+* jQuery s'exécute coté client. Dans la plupart des cas il n'y a pas d'échanges avec un serveur et donc aucun délai entre le début et la fin de l'exécution du code Jquery
+
+#### AJAX
+* Permet de mettre à jour une partie seulement d'un site web en demandant les données nécessaires à un serveur
+* 
