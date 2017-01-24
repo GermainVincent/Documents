@@ -13,7 +13,18 @@
             La première et la troisième ligne demande le chargement complet du DOM avant de commencer à le manipuler.
             $('#texteJQ') : cette partie agit comme un sélecteur. Elle retrouve dans le DOM l'élément dont l'attribut id vaut texteJQ.
             html('Hello world. Ce texte est affiché par jQuery.'); : la deuxième partie indique ce qui doit être modifié. Dans cet exemple, on utilise la méthode html() pour demander la modification du contenu de la balise.
-            
+         
+* Autres exemples :
+        $('a').length retourne le nombre de liens hypertextes contenus dans la page.
+        $('ul.bleu').length retourne le nombre de balises <ul> de classe bleu.    
+        $('li[class="impair"]').length retourne le nombre de balises <li> qui ont un attribut class de valeur impair.
+        $('body').length retourne « 1 » car le document contient une seule balise <body>.
+        $('[src]') sélectionne tous les éléments qui possèdent un attribut src.
+        $('#nom').val() Lit le nom de l'utilisateur.
+        $('#nom').val('Michel') Écrit « Michel » dans la zone de texte Nom d'utilisateur.
+	
+
+Lit le nom de l'utilisateur.
             
 #### AJAX
 * Permet de mettre à jour une partie seulement d'un site web en demandant les données nécessaires à un serveur
